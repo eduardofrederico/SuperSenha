@@ -7,19 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E6146FF72A72056400579AD5 /* PasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6146FF62A72056400579AD5 /* PasswordViewController.swift */; };
+		E6146FF92A72081200579AD5 /* SecurityTipsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6146FF82A72081200579AD5 /* SecurityTipsViewController.swift */; };
+		E6146FFB2A72093500579AD5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6146FFA2A72093500579AD5 /* ViewController.swift */; };
+		E6DC27332A7362E2003B851F /* PasswordGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6DC27322A7362E2003B851F /* PasswordGenerator.swift */; };
 		E6E821E22A488E7600AF3DDB /* SuperSenhaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6E821E12A488E7600AF3DDB /* SuperSenhaApp.swift */; };
 		E6E821E42A488E7600AF3DDB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6E821E32A488E7600AF3DDB /* ContentView.swift */; };
 		E6E821E62A488E7700AF3DDB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6E821E52A488E7700AF3DDB /* Assets.xcassets */; };
 		E6E821EA2A488E7700AF3DDB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6E821E92A488E7700AF3DDB /* Preview Assets.xcassets */; };
+		E6E821F12A488F5600AF3DDB /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6E821F02A488F5600AF3DDB /* Launch Screen.storyboard */; };
+		E6E821F32A4891AE00AF3DDB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6E821F22A4891AE00AF3DDB /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E6146FF62A72056400579AD5 /* PasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordViewController.swift; sourceTree = "<group>"; };
+		E6146FF82A72081200579AD5 /* SecurityTipsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecurityTipsViewController.swift; sourceTree = "<group>"; };
+		E6146FFA2A72093500579AD5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E6DC27322A7362E2003B851F /* PasswordGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordGenerator.swift; sourceTree = "<group>"; };
 		E6E821DE2A488E7600AF3DDB /* SuperSenha.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SuperSenha.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6E821E12A488E7600AF3DDB /* SuperSenhaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperSenhaApp.swift; sourceTree = "<group>"; };
 		E6E821E32A488E7600AF3DDB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E6E821E52A488E7700AF3DDB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E6E821E72A488E7700AF3DDB /* SuperSenha.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SuperSenha.entitlements; sourceTree = "<group>"; };
 		E6E821E92A488E7700AF3DDB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E6E821F02A488F5600AF3DDB /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		E6E821F22A4891AE00AF3DDB /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,9 +65,15 @@
 			isa = PBXGroup;
 			children = (
 				E6E821E12A488E7600AF3DDB /* SuperSenhaApp.swift */,
+				E6146FFA2A72093500579AD5 /* ViewController.swift */,
+				E6E821F22A4891AE00AF3DDB /* Main.storyboard */,
+				E6146FF62A72056400579AD5 /* PasswordViewController.swift */,
+				E6DC27322A7362E2003B851F /* PasswordGenerator.swift */,
+				E6146FF82A72081200579AD5 /* SecurityTipsViewController.swift */,
 				E6E821E32A488E7600AF3DDB /* ContentView.swift */,
 				E6E821E52A488E7700AF3DDB /* Assets.xcassets */,
 				E6E821E72A488E7700AF3DDB /* SuperSenha.entitlements */,
+				E6E821F02A488F5600AF3DDB /* Launch Screen.storyboard */,
 				E6E821E82A488E7700AF3DDB /* Preview Content */,
 			);
 			path = SuperSenha;
@@ -127,8 +145,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E6E821F12A488F5600AF3DDB /* Launch Screen.storyboard in Resources */,
 				E6E821EA2A488E7700AF3DDB /* Preview Assets.xcassets in Resources */,
 				E6E821E62A488E7700AF3DDB /* Assets.xcassets in Resources */,
+				E6E821F32A4891AE00AF3DDB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,8 +159,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E6146FFB2A72093500579AD5 /* ViewController.swift in Sources */,
+				E6DC27332A7362E2003B851F /* PasswordGenerator.swift in Sources */,
+				E6146FF72A72056400579AD5 /* PasswordViewController.swift in Sources */,
 				E6E821E42A488E7600AF3DDB /* ContentView.swift in Sources */,
 				E6E821E22A488E7600AF3DDB /* SuperSenhaApp.swift in Sources */,
+				E6146FF92A72081200579AD5 /* SecurityTipsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,8 +299,8 @@
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
@@ -285,10 +309,12 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.eduardofrederico.SuperSenha;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -311,8 +337,8 @@
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
@@ -321,10 +347,12 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.eduardofrederico.SuperSenha;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

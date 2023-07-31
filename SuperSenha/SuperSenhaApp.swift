@@ -13,5 +13,8 @@ struct SuperSenhaApp: App {
         WindowGroup {
             ContentView()
         }
+        
+        
+        
     }
 }
